@@ -44,7 +44,7 @@ body {
 .image__first {
     width: 1320px;
     height: 600px;
-    background-image: url('images/banner-image.png'), radial-gradient( rgba(0, 0, 0, 0.541), rgba(139, 139, 139, 0.281));
+    background-image: radial-gradient( rgba(0, 0, 0, 0.541), rgba(139, 139, 139, 0.281)), url('images/banner-image.png');
     background-repeat: no-repeat;
     background-position: center;
     background-blend-mode: multiply;
