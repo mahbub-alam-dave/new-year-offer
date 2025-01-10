@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap'); */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+}
+
+/* variables */
+
+:root {
+    --merri-weather: "Merriweather";
+    --inter: "Inter";
+
+}
+
+html {
+    background-color: white;
+}
+
+body {
+    max-width: 1600px;
+    min-height: 100vh;
+    background-color: whitesmoke;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+.image__first {
+    width: 1320px;
+    height: 600px;
+    background-image: url('../images/banner-image.png'), radial-gradient( rgba(0, 0, 0, 0.541), rgba(139, 139, 139, 0.281));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: multiply;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.party p {
+    font-family: var(--merri-weather);
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.party h2 {
+    font-family: var(--merri-weather);
+    color: #FFFFFF;
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+}
+
+/* second image */
+
+.second-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image__second {
+    width: 803px;
+    height: 806px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* margin: 0 auto; */
+    text-align: center;
+    gap: 3.5rem;
+    margin-top: 5rem;
+}
+
+.image__second h2 {
+    font-size: 88px;
+    font-weight: bold;
+    color: #FF0000;
+    font-family: var(--inter), sans-serif;
+}
+
+.image__second img {
+    bottom: 0;
+}
+
+
+.offer_under {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.offer_under .para_one {
+    font-size: 24px;
+    font-family: var(--inter);
+    color: #FF0000;
+}
+
+.offer_under .para_two {
+    font-size: 48px;
+    font-family: var(--inter);
+    color: #070211;
+    font-weight: bold;
+}
