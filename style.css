@@ -27,22 +27,24 @@ html {
 body {
     max-width: 1600px;
     min-height: 100vh;
-    /* background-color: whitesmoke; */
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     border-left: 1px solid black;
     border-right: 1px solid black;
     box-shadow: 0 0 2px -5px black;
 }
 
 
+
+.first_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .image__first {
     width: 1320px;
     height: 600px;
-    background-image: url('../images/banner-image.png'), radial-gradient( rgba(0, 0, 0, 0.541), rgba(139, 139, 139, 0.281));
+    background-image: url('images/banner-image.png'), radial-gradient( rgba(0, 0, 0, 0.541), rgba(139, 139, 139, 0.281));
     background-repeat: no-repeat;
     background-position: center;
     background-blend-mode: multiply;
@@ -124,6 +126,12 @@ body {
 
 /* third section */
 
+.third__section {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
 .image__third {
     width: 1320px;
     height: 600px;
@@ -191,6 +199,11 @@ body {
 
 /* fourth section */
 
+.fourth__section {
+    display: flex;
+    justify-content: center;
+}
+
 .fourth__container {
 
     width: 1320px;
@@ -248,6 +261,12 @@ body {
 }
 
 /* fifth section */
+
+.fifth_section{
+    display: flex;
+    justify-content: center;
+} 
+
 .fifth_container {
     width: 1320px;
     height: 463px;
@@ -337,6 +356,11 @@ body {
 
 
 /* sixth section */
+.sixth__section {
+    display: flex;
+    justify-content: center;
+}
+
 .sixth_container {
     width: 1320px;
     height: 986px;
@@ -401,6 +425,11 @@ body {
 
 /* seventh section */
 
+.seventh__section {
+    display: flex;
+    justify-content: center;
+}
+
 .seventh_container {
     width: 1320px;
     height: 1163px;
@@ -447,7 +476,12 @@ body {
 }
 
 /* eighth section */
+
 .eighth__section {
+    display: flex;
+    justify-content: center;
+}
+.eighth__container {
     width: 1320px;
     height: 616px;
     background-color: rgb(245, 241, 235);
